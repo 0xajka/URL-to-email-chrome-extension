@@ -1,0 +1,48 @@
+.container {
+  background: #fff;
+  padding: 2rem 1.5rem;
+  width: 300px;
+  font-family: system-ui, sans-serif;
+}
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-email {
+  margin-bottom: 1rem;
+}
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.input {
+  border: 1px solid #d1d5db;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+.btn {
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  width: 100%;
+}
+.btn:hover {
+  background: #2563eb;
+}
+.message {
+  margin-top: 1rem;
+  color: #16a34a;
+  font-size: 0.95rem;
+  min-height: 1.2em;
+  text-align: center;
+} 

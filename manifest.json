@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "URL to Email",
+  "version": "1.0",
+  "description": "Copy current domain as email with your set domain.",
+  "permissions": ["storage", "tabs", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+} 

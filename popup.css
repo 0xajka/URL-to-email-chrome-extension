@@ -1,0 +1,40 @@
+.container {
+  background: #23272f;
+  color: #f3f4f6;
+  padding: 0.8rem;
+  width: 170px;
+  min-height: 100px;
+  font-family: system-ui, sans-serif;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.18);
+}
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-email {
+  margin-bottom: 0.6rem;
+}
+.btn {
+  background: #2d3748;
+  color: #f3f4f6;
+  border: 1px solid #3b4252;
+  padding: 0.35rem 1rem;
+  border-radius: 8px;
+  font-size: 0.93rem;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  margin-top: 0.2rem;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.10);
+}
+.btn:hover {
+  background: #434c5e;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.16);
+}
+.message {
+  margin-top: 0.6rem;
+  color: #22d3ee;
+  font-size: 0.91rem;
+  min-height: 1.2em;
+} 
