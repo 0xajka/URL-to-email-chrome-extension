@@ -1,8 +1,12 @@
 .container {
-  background: #fff;
-  padding: 2rem 1.5rem;
-  width: 300px;
+  background: #23272f;
+  color: #f3f4f6;
+  padding: 1rem;
+  width: 240px;
+  min-height: 120px;
   font-family: system-ui, sans-serif;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.18);
 }
 .centered {
   display: flex;
@@ -10,39 +14,53 @@
   align-items: center;
 }
 .icon-email {
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
 }
 .title {
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
+  color: #f3f4f6;
 }
 .input {
-  border: 1px solid #d1d5db;
+  border: 1px solid #3b4252;
+  background: #18181b;
+  color: #f3f4f6;
   padding: 0.5rem;
-  width: 100%;
-  border-radius: 6px;
-  margin-bottom: 0.75rem;
-  font-size: 1rem;
+  width: 90%;
+  max-width: 200px;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  font-size: 1.08rem;
+  outline: none;
+  transition: border 0.2s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.input:focus {
+  border: 1.5px solid #2563eb;
 }
 .btn {
-  background: #3b82f6;
-  color: #fff;
-  border: none;
-  padding: 0.5rem 1.5rem;
-  border-radius: 6px;
-  font-size: 1rem;
+  background: #2d3748;
+  color: #f3f4f6;
+  border: 1px solid #3b4252;
+  padding: 0.35rem 1rem;
+  border-radius: 8px;
+  font-size: 0.93rem;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: background 0.2s, box-shadow 0.2s;
   width: 100%;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.10);
 }
 .btn:hover {
-  background: #2563eb;
+  background: #434c5e;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.16);
 }
 .message {
-  margin-top: 1rem;
-  color: #16a34a;
-  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  color: #22d3ee;
+  font-size: 0.91rem;
   min-height: 1.2em;
   text-align: center;
 } 
